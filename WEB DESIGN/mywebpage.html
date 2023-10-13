@@ -1,0 +1,140 @@
+<html>
+    <head>
+        <title>
+            MY WEBSITE
+        </title>
+        <style>
+            .header{
+                padding: 30px;
+                text-align: center;
+                background-image:url('my.jpg');
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: cover;
+            }
+            .topnav{
+                background-color: beige;
+                overflow: hidden;
+            }
+            .topnav a{
+                text-decoration: none;
+                text-align: center;
+                color: blueviolet;
+                float: left;
+                display: block;
+                padding: 14px 16px;
+            }
+            .topnav a:hover{
+                background-color:cadetblue;
+                color: coral;
+            }
+            .leftcolumn
+            {
+                float: left;
+                width: 73%;
+            }
+            .rightcolumn
+            {
+                float: left;
+                width: 25%;
+                background-color: white;
+                padding-left: 20px;
+            }
+            .fakeimg{
+                background-image:url('coffee.jpg');
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: cover;
+                width: 100%;
+                padding: 20px;
+            }
+            .fakeimg1{
+                background-image:url('hotel.jpg');
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: cover;
+            }
+            .popular{
+                background-image:url('popular.jpg');
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: cover;
+            }
+            .about{
+                background-image:url('about.jpg');
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: cover;
+            }
+            .card{
+                background-color: white;
+                padding: 20px;
+                margin-top:20px;
+            }
+            .footer
+            {
+                padding: 20px;
+                text-align: center;
+                background: #add;
+                margin-top: 20px;
+            }
+            @media screen and (max-width: 800){
+                .topnav a{
+                    float: none;
+                    width: 100%;
+                }
+            }
+            
+        </style>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <div class="header">
+            <h1 style="color:cornsilk;"> HAPPIEST DAY</h1>
+            <P style="color: beige;">ALL DAY ARE GOOD </P>
+        </div>
+        <div class="topnav">
+            <a href="">HOME</a>
+            <a href="">ABOUT ME</a>
+            <a style="float:right;" href="">LOGOUT</a>
+        </div>
+        <div class="row">
+            <div class="leftcolumn">
+                <div class="card">
+                    <h1>COFFEE SHOP</h1>
+                    <h5>SEP 17 2022</h5>
+                    <div class="fakeimg" style="height: 200px;"></div>
+                    <p> DAY STARTS WITH!!!!</p>
+                </div>
+                <div class="card">
+                    <h1>RESTAURANT</h1>
+                    <h5>SEP 06 2023</h5>
+                    <div class="fakeimg1" style="height: 200px;"></div>
+                    <p> YUMMY FOOD!!!</p>
+                </div>
+            </div>
+            <div class="rightcolumn">
+                <div class="card">
+                    <h2> ABOUT ME</h2>
+                    <div class="about" style="height: 100px;"></div>
+                    <p> </p>
+                </div>
+            <div class="card">
+                <h3> POPULAR POST</h3>
+                <div class="popular" style="height: 100px;"></div><br>
+                <div class="about" style="height: 100px;"></div>
+            </div>
+         <div class="card">
+            <h3>FOLLOW ME</h3>
+            <a href=https://open.spotify.com/track/30U1ndQmBzpE6Qqq5lS5Tz><i class="fa fa-spotify" aria-hidden="true"></i></a>
+            <P> </P>
+            
+         </div>
+         </div>
+        </div>
+            
+            <div class="footer">
+                <h1>FOOTER</h1>
+            </div>
+    </body>
+</html>
